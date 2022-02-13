@@ -16,7 +16,7 @@ function App() {
         <Route path="/create">
           <CreateRoute />
         </Route>
-        <Route path="/loc/:loc">
+        <Route path="/loc/:id/:loc">
           <LocRoutes />
         </Route>
         <Route path="*">
